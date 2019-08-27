@@ -1,125 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>AEMC-Home</title>
+</head>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
-
-    <!-- AEMC CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <title>AEMC-Assist Prototype</title>
-  </head>
-  <body>
+<body>
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">AEMC-Assist</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">AEMC-Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="index.html">Beranda <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="tabel.php">Jadwal</a>
-        <a class="nav-item btn btn-primary tombol" href="tambah.php">Tambah</a>
-      </div>
-    </div>
-  </div>
-</nav>
-    <!-- End Navbar -->
-
-    <!-- Jumbotron -->
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Buat jadwalmu jadi    <span>teratur</span><br> dan <span>menyenangkan</span></h1>
-    <a href="" class="btn btn-primary tombol">tombol hiasan</a>
-  </div>
-</div>
-    <!-- End Jumbotron -->
-
-    <!-- Container -->
-    <div class="container">
-      <!-- Widget -->
-      <div class="row justify-content-center">
-        <div class="col-10 info">
-          <div class="row">
-            <div class="col-lg">
-              <img src="img/employee.png" alt="employee" class="float-left">
-              <h4>24 Hours</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-lg">
-                <img src="img/hires.png" alt="High Res" class="float-left">
-                <h4>High-Res</h4>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div class="col-lg">
-                  <img src="img/security.png" alt="Security" class="float-left">
-                  <h4>24 Hours</h4>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Disabled</a>
+                </li>
+            </ul>
         </div>
-      </div>
-      <!-- End Widget -->
-      <!-- Konten -->
-      <div class="row workingspace">
-        <div class="col-lg-6">
-          <img src="img/workingspace.png" alt="workingspace" class="img-fluid">
-        </div>
-        <div class="col-lg-5">
-          <h3>You <span>work</span> like at <span>home</span></h3>
-          <p>Bekerja dengan suasana hati yang lebih asik dan mempelajari hal baru setiap harinya.</p>
-          <a href="" class="btn btn-primary tombol">gallery</a>
-        </div>
-      </div>
-      <!-- End Konten -->
-      <!-- Testimoni -->
-      <section class="testimoni">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h5>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quam officia voluptatibus."</h5>
-          </div>
-        </div>
+    </nav>
 
-        <div class="row justify-content-center">
-          <div class="col-lg-6 justify-content-center d-flex">
-              <figure class="figure">
-                  <img src="img/img1.png" class="figure-img img-fluid rounded-circle" alt="testi 1">
-                </figure>
-
-              <figure class="figure">
-                  <img src="img/img2.png" class="figure-img img-fluid rounded-circle dpn" alt="testi 2">
-                  <figcaption class="figure-caption">
-                    <h5>Sunny Ye</h5>
-                    <p>Designer</p>
-                  </figcaption>
-                </figure>
-                <figure class="figure">
-                    <img src="img/img3.png" class="figure-img img-fluid rounded-circle" alt="testi 3">
-                  </figure>
-          </div>
-        </div>
-        
-      </section>
-      <!-- End Testimoni -->
+    <!-- Header Parallax -->
 
 
-    </div>
-    <!-- End Container -->
+    <script src="js/jquery.js"></script>
+    <script src="js/activeState.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
 </html>

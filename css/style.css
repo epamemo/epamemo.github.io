@@ -1,0 +1,11 @@
+/*-- Active State Color --*/
+.navbar-dark .nav-item > .nav-link.active {
+  color: white;
+}
+/*-- Active State Color End --*/
+
+/*-- Navbar Brand --*/
+.navbar-brand {
+  font-family: baron neue;
+}
+/*=====  End of Navbar  ======*/
