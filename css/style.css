@@ -1,11 +1,52 @@
-/*-- Active State Color --*/
-.navbar-dark .nav-item > .nav-link.active {
-  color: white;
-}
-/*-- Active State Color End --*/
+/*=============================================
+=            Mobile CSS            =
+=============================================*/
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-bottom ul {
+    width: 100%;
+    background-color: cadetblue;
+    align-content: center;
+    bottom: 0%;
+    position: fixed;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-bottom li {
+    display: inline-block;
+  }
+  .navbar-bottom a {
+    color: aliceblue;
+    text-decoration: none;
+    width: 40px;
+    display: block;
+    padding: 12px;
+    font-family: Helvetica;
+    transition: 0.4s;
+  }
+  .navbar-bottom a.active {
+    background-color: blueviolet;
+  }
+  .navbar-bottom a:hover {
+    background-color: navy;
+    width: 70px;
+    transition: 0.4s;
+  }
 
-/*-- Navbar Brand --*/
-.navbar-brand {
-  font-family: baron neue;
+  /*=============================================
+  =            Font Nav            =
+  =============================================*/
+  span {
+    color: white;
+    font-size: 38px;
+  }
+
+  /*=====  End of Font Nav  ======*/
 }
-/*=====  End of Navbar  ======*/
+
+/*=====  End of Mobile CSS  ======*/
