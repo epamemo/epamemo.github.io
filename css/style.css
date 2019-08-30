@@ -96,6 +96,7 @@
   }
   .isi-prof {
     margin-top: -4px;
+    height: 550px;
     padding-bottom: 10%;
     background: 
     /* top, transparent red */ linear-gradient(
@@ -109,6 +110,9 @@
     background-color: rgb(73, 46, 117);
     padding-bottom: 30%;
     text-align: center;
+  }
+  .isi-prof h1 {
+    padding-top: 20%;
   }
   .isi-prof p {
     padding-left: 10%;
@@ -179,6 +183,9 @@
   #mobile {
     display: none;
   }
+  html {
+    scroll-behavior: smooth;
+  }
 
   body {
     margin: 0;
@@ -188,6 +195,111 @@
 
   .header {
     margin-top: 60px;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    text-align: center;
+    height: 200px;
+    background-color: navy;
+  }
+  .header img {
+    height: auto;
+    width: 18%;
+  }
+  .header h1 {
+    color: aqua;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .break {
+    height: 50%;
+    width: 100%;
+  }
+  .isi-porto {
+    background-color: #4c4b50;
+  }
+  .isi-talk {
+    background-color: #f5e362;
+  }
+  .isi-x-banner {
+    background-color: #c33d3e;
+  }
+  .isi-prof {
+    margin-top: -4px;
+    height: 550px;
+    padding-bottom: 10%;
+    background: 
+    /* top, transparent red */ linear-gradient(
+        rgba(198, 70, 71, 1),
+        rgba(153, 90, 255, 0.515),
+        rgba(153, 90, 255, 1)
+      ),
+      /* bottom, image */ url(../img/jumbotron-bg.jpg);
+  }
+  .isi-cont {
+    background-color: rgb(73, 46, 117);
+    padding-bottom: 30%;
+    text-align: center;
+  }
+  .isi-prof h1 {
+    padding-top: 20%;
+  }
+  .isi-prof p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .porto {
+    background-image: linear-gradient(navy, #4c4b50);
+  }
+  .talk {
+    background-image: linear-gradient(#4c4b50, #f5e362);
+  }
+  .x-ban {
+    background-image: linear-gradient(#f5e362, #c33d3e);
+  }
+  .prof {
+    background-image: linear-gradient(#c64647, rgba(198, 70, 71, 0));
+  }
+  .cont {
+    background-image: linear-gradient(
+      rgba(153, 90, 255, 1),
+      rgba(153, 90, 255, 0)
+    );
+  }
+  .isi-porto h1 {
+    color: lightblue;
+  }
+  .isi-prof {
+    text-align: center;
+    color: lightblue;
+  }
+  .isi-prof h2 {
+    color: aqua;
+    text-align: center;
+  }
+  .Nisverto h2 {
+    color: white;
+    text-align: center;
+  }
+  .x-banner h2 {
+    color: white;
+    text-align: center;
+  }
+  .Talkshow h2 {
+    color: navy;
+    text-align: center;
+  }
+  .isi-cont h1 {
+    color: rgb(173, 201, 255);
+    margin-bottom: 10%;
+  }
+  .isi-cont a {
+    display: inline-block;
+    font-size: 23px;
+    text-decoration: none;
+    margin: 5%;
+    color: rgb(173, 201, 255);
   }
 
   /*=============================================
@@ -210,11 +322,12 @@
   }
   .navbar a {
     text-decoration: none;
-    width: 50px;
+    width: 70px;
     display: block;
     padding: 20px;
     font-family: Century Gothic;
     transition: 0.4s;
+    color: white;
   }
   .navbar a.active {
     background-color: blueviolet;
