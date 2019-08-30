@@ -31,9 +31,10 @@
     display: inline-block;
   }
   .navbar a {
+    margin-left: -5px;
     text-decoration: none;
     text-align: center;
-    width: 40px;
+    width: 70px;
     display: block;
     padding: 12px;
     font-family: Century Gothic;
@@ -51,6 +52,9 @@
   /*=============================================
   =            Font Nav            =
   =============================================*/
+  .navbar a {
+    color: white;
+  }
   span {
     color: white;
     font-size: 38px;
@@ -90,6 +94,26 @@
   .isi-x-banner {
     background-color: #c33d3e;
   }
+  .isi-prof {
+    margin-top: -4px;
+    padding-bottom: 10%;
+    background: 
+    /* top, transparent red */ linear-gradient(
+        rgba(198, 70, 71, 1),
+        rgba(153, 90, 255, 0.515),
+        rgba(153, 90, 255, 1)
+      ),
+      /* bottom, image */ url(../img/jumbotron-bg.jpg);
+  }
+  .isi-cont {
+    background-color: rgb(73, 46, 117);
+    padding-bottom: 30%;
+    text-align: center;
+  }
+  .isi-prof p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   .porto {
     background-image: linear-gradient(navy, #4c4b50);
   }
@@ -99,10 +123,24 @@
   .x-ban {
     background-image: linear-gradient(#f5e362, #c33d3e);
   }
+  .prof {
+    background-image: linear-gradient(#c64647, rgba(198, 70, 71, 0));
+  }
+  .cont {
+    background-image: linear-gradient(
+      rgba(153, 90, 255, 1),
+      rgba(153, 90, 255, 0)
+    );
+  }
   .isi-porto h1 {
     color: lightblue;
   }
   .isi-prof {
+    text-align: center;
+    color: lightblue;
+  }
+  .isi-prof h2 {
+    color: aqua;
     text-align: center;
   }
   .Nisverto h2 {
@@ -116,6 +154,17 @@
   .Talkshow h2 {
     color: navy;
     text-align: center;
+  }
+  .isi-cont h1 {
+    color: rgb(173, 201, 255);
+    margin-bottom: 10%;
+  }
+  .isi-cont a {
+    display: inline-block;
+    font-size: 23px;
+    text-decoration: none;
+    margin: 5%;
+    color: rgb(173, 201, 255);
   }
 }
 /*=====  End of Mobile CSS  ======*/
