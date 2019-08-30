@@ -5,12 +5,13 @@
   #desktop {
     display: none;
   }
-  #mobile-design {
+  #mobile {
     display: block;
   }
   body {
     margin: 0;
     padding: 0;
+    font-family: Century Gothic;
   }
   .navbar ul {
     width: 100%;
@@ -28,10 +29,11 @@
   }
   .navbar a {
     text-decoration: none;
+    text-align: center;
     width: 40px;
     display: block;
     padding: 12px;
-    font-family: Helvetica;
+    font-family: Century Gothic;
     transition: 0.4s;
   }
   .navbar a.active {
@@ -49,10 +51,67 @@
   span {
     color: white;
     font-size: 38px;
+    text-align: center;
+    display: inline-block;
   }
   /*=====  End of Font Nav  ======*/
+  .header {
+    margin-top: -22px;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    text-align: center;
+    height: 350px;
+    background-color: navy;
+  }
+  .header img {
+    height: auto;
+    width: 30%;
+  }
+  .header h1 {
+    color: aqua;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .break {
+    height: 100px;
+    width: 100%;
+  }
+  .isi-porto {
+    background-color: #4c4b50;
+  }
+  .isi-talk {
+    background-color: #f5e362;
+  }
+  .isi-x-banner {
+    background-color: #c33d3e;
+  }
+  .porto {
+    background-image: linear-gradient(navy, #4c4b50);
+  }
+  .talk {
+    background-image: linear-gradient(#4c4b50, #f5e362);
+  }
+  .x-ban {
+    background-image: linear-gradient(#f5e362, #c33d3e);
+  }
+  .isi-porto h1 {
+    color: lightblue;
+  }
+  .Nisverto h2 {
+    color: white;
+    text-align: center;
+  }
+  .x-banner h2 {
+    color: white;
+    text-align: center;
+  }
+  .Talkshow h2 {
+    color: navy;
+    text-align: center;
+  }
 }
-
 /*=====  End of Mobile CSS  ======*/
 
 /*=============================================
@@ -62,13 +121,14 @@
   #desktop {
     display: block;
   }
-  #mobile-design {
+  #mobile {
     display: none;
   }
 
   body {
     margin: 0;
     padding: 0;
+    font-family: Century Gothic;
   }
 
   .header {
@@ -98,7 +158,7 @@
     width: 50px;
     display: block;
     padding: 20px;
-    font-family: Helvetica;
+    font-family: Century Gothic;
     transition: 0.4s;
   }
   .navbar a.active {
