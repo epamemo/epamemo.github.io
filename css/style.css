@@ -8,6 +8,9 @@
   #mobile {
     display: block;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     margin: 0;
     padding: 0;
@@ -98,6 +101,9 @@
   }
   .isi-porto h1 {
     color: lightblue;
+  }
+  .isi-prof {
+    text-align: center;
   }
   .Nisverto h2 {
     color: white;
